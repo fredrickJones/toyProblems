@@ -1,4 +1,4 @@
-'use strivt';
+'use strict';
 //given an arbitrary input string, return the first non-duplicate character in the string. for example:
 //firstNonRepeatedCharacter('ABA'); =>'B'
 //firstNonRepeatedCharacter('AABCABD'); => 'C'
@@ -27,13 +27,15 @@
 var nonDuplicate = function(str) {
 	var arr = str.split('');
 	for (var i = 0; i < arr.length; i++) {
-		if(arr[i]
-	};
+		if(arr[i]){
+
+		}
+	}
 };
 
 var nonDuplicate = function(str) {
 	var hash = {};
-	var andwer = '';
+	var answer = '';
 
 	for (var i = 0; i < str.length; i++) {
 		if(!hash[str[i]]) {
