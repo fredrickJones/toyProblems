@@ -24,3 +24,6 @@ var fibo2 = function(n) {
 	}
 	return fibo2(n - 1) + fibo2(n - 2);
 };
+
+// what is your base case that will end my incursion
+// how will I get closer to the base case?
